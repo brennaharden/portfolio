@@ -35,8 +35,9 @@
 		border2-bg:			#e7e7e7,
 
 		accent1: (
-			bg:				#f16c67,
+			bg:				#f18d80,
 			fg:				mix(#49bf9d, #ffffff, 25%),
+			link:           #f5491e,
 			fg-bold:		#ffffff,
 			fg-light:		mix(#49bf9d, #ffffff, 40%),
 			border:			rgba(255,255,255,0.25),
@@ -47,7 +48,7 @@
 
 		accent2: (
 			bg:				#1f1815,
-			fg:				rgba(255,255,255,0.5),
+			fg:				rgba(255, 255, 255, 0.555),
 			fg-bold:		#ffffff,
 			fg-light:		rgba(255,255,255,0.4),
 			border:			rgba(255,255,255,0.25),

@@ -41,7 +41,7 @@
 	));
 
 	$size-header-width: 35%;
-	$size-header-pad: 4em;
+	$size-header-pad: 3em;
 
 /* Basic */
 
@@ -66,7 +66,7 @@
 
 	a {
 		@include vendor('transition', ('color #{_duration(transition)} ease-in-out', 'border-color #{_duration(transition)} ease-in-out'));
-		color: _palette(accent1, bg);
+		color: _palette(accent1, link);
 		text-decoration: none;
 
 		&:hover {
@@ -915,7 +915,7 @@
 		background-color:		_palette(accent2, bg);
 		background-attachment:	fixed;
 		background-image:		url('../images/pexels-anni-roenkae-3109793.jpg');
-		background-position:	left;
+		background-position: bottom left;
 		background-repeat:		no-repeat;
 		background-size:		auto;
 		color: _palette(accent2, fg);
