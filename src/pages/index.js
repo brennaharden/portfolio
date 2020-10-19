@@ -26,12 +26,10 @@ const HomeIndex = () => {
             <blockquote>—Charles Eames, &nbsp; Architect & Designer</blockquote>
           </header>
           <p>
-            My name is Brenna Harden. <br/>I'm an emerging web developer located in the Intermountain West. <br/> I love what I do, because I love planning and problem solving. <br/> My attitude toward development is best described in the words of Steve Jobs: 
+            <strong>My name is Brenna Harden. </strong><br/>I'm a web developer based in the Intermountain West. I love what I do, because I love planning and problem solving. My attitude toward development is best described in the words of Steve Jobs: &nbsp;
+            "Design is not just what it looks like and feels like. Design is how it <i>works</i>."
             <br/><br/>
-            "Design is not just what it looks like and feels like. Design is how it works." 
-            <br/><br/>
-            I believe that intention is not only the key to great web design, but to creating a powerful infrastructure between the front and back end. <br/> A successful website improves the relationship between the user and the entity behind the site. <br/>
-            My passion is engineering that trust.
+            I believe that intention is not only the key to great web design, but to creating a powerful infrastructure between the front and back end. A successful website improves the relationship between the user and the entity behind the site. <strong>My passion is engineering that trust.</strong>
             <br/>
             <br/>
             In my free time, catch me goofing off with my best friend and trying to convince my cat to eat her food before the dog gets it.
