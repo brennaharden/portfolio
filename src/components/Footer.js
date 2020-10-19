@@ -1,27 +1,29 @@
 import React from 'react'
+import { FaDiscord, FaLinkedinIn, FaGithub, FaRegEnvelope} from 'react-icons/fa'
 
 const Footer = () => (
+
   <div id="footer">
     <div className="inner">
       <ul className="icons">
         <li>
-          <a href="#" className="icon fa-twitter">
-            <span className="label">Twitter</span>
+          <a href="https://www.linkedin.com/in/brennaharden/" >
+            <FaLinkedinIn/>
           </a>
         </li>
         <li>
-          <a href="#" className="icon fa-github">
-            <span className="label">Github</span>
+          <a href="https://github.com/brennaharden" >
+            <FaGithub/>
           </a>
         </li>
         <li>
-          <a href="#" className="icon fa-dribbble">
-            <span className="label">Dribbble</span>
+          <a href="https://discordapp.com/users/727918190285422623" target="_blank">
+            <FaDiscord/>
           </a>
         </li>
         <li>
-          <a href="#" className="icon fa-envelope-o">
-            <span className="label">Email</span>
+          <a href="mailto:brenna.avalee@gmail.com">
+            <FaRegEnvelope/>
           </a>
         </li>
       </ul>
@@ -33,6 +35,7 @@ const Footer = () => (
       </ul>
     </div>
   </div>
+  
 )
 
 export default Footer
