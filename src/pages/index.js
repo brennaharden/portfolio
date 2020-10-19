@@ -19,21 +19,30 @@ const HomeIndex = () => {
         <section id="one">
           <header className="major">
             <h2>
-              Yesterday is yesterday. If we try to recapture it,
-              <br />
-              we will only lose <i>tomorrow</i>.
+            “Eventually everything connects — people, ideas, objects. The quality of the connections is the key to quality per se.”  
+            <br/>
+            
             </h2>
+            <blockquote>—Charles Eames, &nbsp; Architect & Designer</blockquote>
           </header>
           <p>
-            The best websites are useful to both the user and the host.
+            My name is Brenna Harden. <br/>I'm an emerging web developer located in the Intermountain West. <br/> I love what I do, because I love planning and problem solving. <br/> My attitude toward development is best described in the words of Steve Jobs: 
+            <br/><br/>
+            "Design is not just what it looks like and feels like. Design is how it works." 
+            <br/><br/>
+            I believe that intention is not only the key to great web design, but to creating a powerful infrastructure between the front and back end. <br/> A successful website improves the relationship between the user and the entity behind the site. <br/>
+            My passion is engineering that trust.
+            <br/>
+            <br/>
+            In my free time, catch me goofing off with my best friend and trying to convince my cat to eat her food before the dog gets it.
           </p>
-          <ul className="actions">
+          {/* <ul className="actions">
             <li>
               <a href="#" className="button">
                 Learn More
               </a>
             </li>
-          </ul>
+          </ul> */}
         </section>
 
         <section id="two">
