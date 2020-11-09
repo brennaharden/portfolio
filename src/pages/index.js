@@ -17,7 +17,7 @@ const HomeIndex = () => {
         <meta property="og:url" content="https://brennaharden.netlify.app/" />
         <meta property="og:title" content={siteTitle} />
         <meta property="og:description" content={siteDescription} />
-        <meta property="og:image" content="static/portfolio-preview.png" />
+        <meta property="og:image" content="https://brennaharden.netlify.app/static/portfolio-preview.png" />
       </Helmet>
 
       <div id="main">
