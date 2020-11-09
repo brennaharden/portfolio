@@ -1,6 +1,5 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-
 import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 
@@ -12,7 +11,8 @@ const HomeIndex = () => {
     <Layout>
       <Helmet>
         <title>{siteTitle}</title>
-        <meta name="description" content={siteDescription} />
+        <meta name="description"  property="og:description" content={siteDescription} />
+        
       </Helmet>
 
       <div id="main">
